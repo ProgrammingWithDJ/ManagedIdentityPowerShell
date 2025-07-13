@@ -20,3 +20,5 @@ TenantID : Provide the tenantID of your subscription
 GraphAppId : This parameter is optional. We don’t have to change this value. This corresponds to Graph API Guid.
 DisplayNameofMSI :  Provide your Logic App name. Since managed identity will be created in the same name as the resource on which identity is enabled, we can provide the Logic App name
 Permissions : Provide the appropriate Graph API Permission. https://docs.microsoft.com/en-us/graph/permissions-reference. Note: These are application permission.
+
+Reference: https://techcommunity.microsoft.com/blog/integrationsonazureblog/grant-graph-api-permission-to-managed-identity-object/2792127
